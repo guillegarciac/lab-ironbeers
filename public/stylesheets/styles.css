@@ -42,7 +42,7 @@ nav > a {
   width: 300px;
   display: block;
   margin: auto;
-  padding: 50px 0px;
+  padding: 150px 0px;
 }
 
 /* To be defined 
@@ -51,11 +51,47 @@ nav > a {
 }
 */
 
-.beerdiv {
-  width: 70%;
-  display:block;
-  margin:auto;
-  padding: 100px;
+.buttons > a:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.beer-card {
+    width: 75%;
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0px 14px 80px rgb(34 35 58 / 20%);
+    padding: 22px;
+    border-radius: 25px;
+    height: 185px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.beer-card:first-child{
+  margin-top: 75px;
+}
+
+.beer-card > img {
+  display: block;
+  margin: 0px 50px;
+}
+
+.beer-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-container {
+  padding: 2px 16px;
+}
+
+.card-container > h2 {
+  font-size: 30px;
+}
+
+.card-container > p {
+  margin-top: 25px;
 }
 
 footer {
