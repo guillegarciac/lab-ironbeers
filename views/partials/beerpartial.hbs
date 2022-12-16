@@ -1,11 +1,12 @@
 <div class="beer-card">
-    <img height="200" src="{{ image_url }}" alt="{{ name }}"/>
-      <div class="card-container">
-<h2>{{ name }}</h2>
+   <div class="card-container-beer">
+    <img height="200" src="{{ image_url }}" alt="{{ name }}"/>  
+  </div>
+    <div class="card-container">
+      <h2>{{ name }}</h2>
       <p>Description : {{ description }}</p>
       {{!-- <p>Ingredients: {{ ingredients }}</p> need to fix this to avoid [object Object]--}}
       <p>Tagline: {{ tagline }}</p>
-      </div>
-      
+    </div>
 </div>
 

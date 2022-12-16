@@ -75,15 +75,23 @@ nav > a {
 
 .beer-card > img {
   display: block;
-  margin: 0px 50px;
+  margin: 0px 25px;
 }
 
 .beer-card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+.card-container-beer {
+  padding: 0px 40px;
+  width: 15vw;
+  display: flex;
+  justify-content: center;
+}
+
 .card-container {
-  padding: 2px 16px;
+  padding: 0px 40px;
+  width: 85vw;
 }
 
 .card-container > h2 {

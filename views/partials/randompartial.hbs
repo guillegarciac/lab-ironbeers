@@ -1,6 +1,10 @@
 <div class="beer-card">
-  <img height="200" src="{{ image_url }}" alt="{{ name }}"/>
-  <h2>{{ name }}</h2>
-  <p>Description : {{ description }}</p>
-  <p>Tagline: {{ tagline }}</p>
+  <div class="card-container-beer">
+    <img height="200" src="{{ image_url }}" alt="{{ name }}"/>  
+  </div>
+  <div class="card-container">
+    <h2>{{ name }}</h2>
+    <p>Description : {{ description }}</p>
+    <p>Tagline: {{ tagline }}</p>
+  </div>
 </div>
