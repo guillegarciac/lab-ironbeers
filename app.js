@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
 app.get('/beers', (req, res, next) => {
   punkAPI
   .getBeers()
-  .then(beersFromApi => console.log('Beers from the database: ', beersFromApi))
+  .then(beersFromApi => res.render("beers", { beersFromApi }))
   .catch(error => console.log(error));
 });
 
