@@ -40,6 +40,13 @@ nav > a {
   padding: 50px 0px;
 }
 
+.beerdiv {
+  width: 70%;
+  display:block;
+  margin:auto;
+  padding: 100px;
+}
+
 /*
 white: #f7f9f9;
 light-blue: #2081c3;

@@ -11,6 +11,9 @@ app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'views'));
 
 app.use(express.static(path.join(__dirname, 'public')));
+hbs.registerHelper('json', function(context) {
+  return JSON.stringify(context);
+}); //to return ingridients Object but needs fix (not working atm)
 
 // Register the location for handlebars partials here:
 

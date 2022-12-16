@@ -1,8 +1,9 @@
-<div class="beer">
+<div class="beerdiv">
     {{#each beersFromApi}}
       <img height="200" src="{{image_url}}" alt="{{ name }}"/>
       <h2>{{ name }}</h2>
       <p>Description : {{description}}</p>
-      <p>Tagline : {{tagline}}</p>
+      <p>Ingredients: {{ingredients}}</p> {{!-- need to fix this to avoid [object Object]--}}
+      <p>Tagline: {{tagline}}</p>
     {{/each}}
 </div>
