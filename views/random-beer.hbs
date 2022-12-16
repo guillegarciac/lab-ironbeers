@@ -1,9 +1,6 @@
-<div class="beerdiv">
+<div class="beer-block">
   {{#each responseFromAPI}}
-  <img height="200" src="{{ image_url }}" alt="{{ name }}"/>
-    <h2>{{ name }}</h2>
-    <p>Description : {{ description }}</p>
-    <p>Tagline: {{ tagline }}</p>
+    {{>randompartial this}}
   {{/each}}
 </div>
 <div class="buttons">
