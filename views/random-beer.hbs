@@ -1,0 +1,11 @@
+<div class="beerdiv">
+  {{#each responseFromAPI}}
+  <img height="200" src="{{ image_url }}" alt="{{ name }}"/>
+    <h2>{{ name }}</h2>
+    <p>Description : {{ description }}</p>
+    <p>Tagline: {{ tagline }}</p>
+  {{/each}}
+</div>
+<div class="buttons">
+    <a href="/random-beer">Check another beer</a>
+</div>
